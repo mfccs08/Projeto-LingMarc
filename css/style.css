@@ -1,0 +1,105 @@
+/* Fonts */
+@font-face {
+    font-family: "Kremlin";
+    src: url("../fonts/kremlin.ttf");
+}
+
+@import url("https://fonts.cdnfonts.com/css/rottering");
+@import url('https://fonts.cdnfonts.com/css/sf-pixelate');
+
+/* Classes */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    width: 560;
+    height: 315;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.inline-href {
+    text-decoration: none;
+    color: plum;
+}
+
+.inline-href:hover {
+    font-style: italic;
+}
+
+.kremlin {
+    font-family: Kremlin;
+}
+
+.rottering-sans-serif {
+    font-family: 'Rottering', sans-serif;
+}
+
+
+/* World */
+body {
+    background-color: black;
+    font-family: "SF Pixelate", sans-serif;
+}
+
+/* Intro */
+intro {
+    display: grid;
+    height: 100%;
+    font-family: "SF Pixelate", sans-serif;
+    color: #031217;
+}
+
+intro-title {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 5rem;
+    background-color: white;
+}
+
+intro-description {
+    text-align: center;
+    font-size: medium;
+    background-color: white;
+}
+
+#start-button { 
+    margin-top: 10rem;
+}
+
+#continue {
+    color: lightyellow;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+#continue:hover {
+    font-style: italic;
+    color: lightgrey;
+}
+
+/* Start */
+
+conversation {
+    display: grid;
+    grid-gap: 100px;
+    font-size: 40px;
+    color: white;
+    align-items: center;
+}
+
+prof {
+    color: lightgreen
+}
+
+student {
+    color: lightblue
+}

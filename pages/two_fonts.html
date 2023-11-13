@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.cdnfonts.com/css/rottering" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/sf-pixelate" rel="stylesheet">
+        <script src="../js/utils.js"></script>
+        <title>CYOA</title>
+    </head>
+
+    <style>
+        conversation {
+            font-size: large;
+        }
+
+        student {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <conversation>
+        <prof>Agora sim, podemos respirar direito. Então, quais são as dúvidas?</prof>
+        <student>Por que você diminuiu? E por que eu estou em um lugar diferente? O que aconteceu?</student>
+        <prof>Hahaha. Nós estamos em uma página com <span class="italic">estilo</span> diferente. Lembra quando você
+            escolheu sua cor? Algo semelhante está acontecendo aqui. Alterando as propriedades CSS, conseguimos nos
+            expressar de formas diferentes.</prof>
+        <student>O que eu sou?</student>
+        <prof>Você é um elemento. Mais especificamente, uma tag html. Um conjunto de propriedades e valores. Com
+            potencial para se tornar o que quiser!</prof>
+        <student>Não faz sentido. Onde nós estamos? Quem é você?</student>
+        <prof>Nós estamos em uma página web, em um navegador, em um computador. E eu sou seu professor! Minha função é
+            te ajudar a alcançar seu potencial... Por agora, por que não vamos para a próxima lição? Só se aprende
+            fazendo!</prof>
+        <prof><a class="inline-href" href="lessons/lesson_two.html">[Segunda Lição: Por que não tenta alterar sua
+                fonte?]</a> Também é simples, veja:</prof>
+        <img src="../img/prof_kremlin.png">
+        <prof class="kremlin">Ola camarada...</prof>
+        <student class="rottering-sans-serif" style="font-size: larger;"> Interessante. Me sinto... sofisticado.
+        </student>
+        <prof style="font-size: xx-large;">Haha. Como pode ver, também podemos alterar o tamanho da fonte. Tente!</prof>
+        <img src="../img/prof_size.png">
+        <student class="rottering-sans-serif" style="font-size: xx-large;"> HAHAHAH. Eu realmente posso ser o que
+            quiser!</student>
+        <prof>É só o começo. A próxima lição será ainda mais impressionante.</prof>
+    </conversation>
+    <p align="center">
+        <a id="continue" href="three_video.html">- Continue -</a>
+    </p>
+</body>
+
+</html>
